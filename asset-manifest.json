@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/fight-covid-org/static/css/main.5f361e03.chunk.css",
-    "main.js": "/fight-covid-org/static/js/main.9ad3d54b.chunk.js",
-    "main.js.map": "/fight-covid-org/static/js/main.9ad3d54b.chunk.js.map",
+    "main.css": "/fight-covid-org/static/css/main.08abd7cd.chunk.css",
+    "main.js": "/fight-covid-org/static/js/main.5842bff7.chunk.js",
+    "main.js.map": "/fight-covid-org/static/js/main.5842bff7.chunk.js.map",
     "runtime-main.js": "/fight-covid-org/static/js/runtime-main.179d1b16.js",
     "runtime-main.js.map": "/fight-covid-org/static/js/runtime-main.179d1b16.js.map",
-    "static/js/2.1b125a8c.chunk.js": "/fight-covid-org/static/js/2.1b125a8c.chunk.js",
-    "static/js/2.1b125a8c.chunk.js.map": "/fight-covid-org/static/js/2.1b125a8c.chunk.js.map",
+    "static/css/2.b9b2dd63.chunk.css": "/fight-covid-org/static/css/2.b9b2dd63.chunk.css",
+    "static/js/2.4873142a.chunk.js": "/fight-covid-org/static/js/2.4873142a.chunk.js",
+    "static/js/2.4873142a.chunk.js.map": "/fight-covid-org/static/js/2.4873142a.chunk.js.map",
     "index.html": "/fight-covid-org/index.html",
-    "precache-manifest.ed567b7123abbbc9c769cb1670c31f87.js": "/fight-covid-org/precache-manifest.ed567b7123abbbc9c769cb1670c31f87.js",
+    "precache-manifest.b84c895838a3078a81855074a613f01c.js": "/fight-covid-org/precache-manifest.b84c895838a3078a81855074a613f01c.js",
     "service-worker.js": "/fight-covid-org/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/fight-covid-org/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.1b125a8c.chunk.js.LICENSE.txt": "/fight-covid-org/static/js/2.1b125a8c.chunk.js.LICENSE.txt",
+    "static/css/2.b9b2dd63.chunk.css.map": "/fight-covid-org/static/css/2.b9b2dd63.chunk.css.map",
+    "static/css/main.08abd7cd.chunk.css.map": "/fight-covid-org/static/css/main.08abd7cd.chunk.css.map",
+    "static/js/2.4873142a.chunk.js.LICENSE.txt": "/fight-covid-org/static/js/2.4873142a.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/fight-covid-org/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.179d1b16.js",
-    "static/js/2.1b125a8c.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9ad3d54b.chunk.js"
+    "static/css/2.b9b2dd63.chunk.css",
+    "static/js/2.4873142a.chunk.js",
+    "static/css/main.08abd7cd.chunk.css",
+    "static/js/main.5842bff7.chunk.js"
   ]
 }
