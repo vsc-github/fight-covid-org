@@ -30,20 +30,23 @@ function App() {
         </div>
       </nav>
 
-      <section class="hero is-large">
+      <section class="hero is-medium">
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
-              Large title
+              Get help in these tough times
       </h1>
             <h2 class="subtitle">
-              Large subtitle
+              Fightcovid.org is a non-profit that expands access to capital for those affected with COVID19 around the world. More than 2.5 million people have raised over $1 billion on Kiva. Could you be next?
       </h2>
+            <div class="buttons is-centered">
+              <a class="button is-primary is-inverted is-medium" href="#fill-form">Get Started</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section hero is-block is-relative is-small details">
+      <section class="section hero is-block is-relative is-small details" id="fill-form">
         <div class="container">
 
           <div className="box">

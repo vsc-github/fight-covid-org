@@ -3,7 +3,7 @@
   color: #e6ddd1;
 }
 
-.App nav .logo{
+.App nav .logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,13 +12,36 @@
   font-size: 1.5rem;
 }
 
-.App nav .logo span{
+.App nav .logo span {
   margin: 0 0 0 .5rem;
 }
 
 .App .hero {
   background-color: #556b2f;
   color: #e6ddd1;
+}
+
+.App .hero-body {
+  text-align: center;
+}
+
+.App .hero-body .container {
+  max-width: 60rem;
+}
+
+.App .hero-body .container .title {
+  color: #e6ddd1;
+}
+
+.App .hero-body .container .subtitle {
+  color: #e6ddd1;
+  margin: 1rem 0;
+}
+
+.App .hero-body .container .buttons .button {
+  background-color: #e6ddd1;
+  color: #556b2f;
+  margin: 1rem 0 0 0;
 }
 
 .App .box {
