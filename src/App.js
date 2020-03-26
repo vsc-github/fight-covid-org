@@ -5,20 +5,184 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <nav className="navbar is-transparent">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="https://versions.bulma.io/0.7.0">
+            <img src="https://versions.bulma.io/0.7.0/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+          </a>
+          <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="navbarExampleTransparentExample" className="navbar-menu">
+          <div className="navbar-start">
+            <a className="navbar-item" href="https://versions.bulma.io/0.7.0/">
+              Home
+         </a>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link" href="/documentation/overview/start/">
+                Docs
+            </a>
+              <div className="navbar-dropdown is-boxed">
+                <a className="navbar-item" href="/documentation/overview/start/">
+                  Overview
+               </a>
+                <a className="navbar-item" href="https://versions.bulma.io/0.7.0/documentation/modifiers/syntax/">
+                  Modifiers
+               </a>
+                <a className="navbar-item" href="https://versions.bulma.io/0.7.0/documentation/columns/basics/">
+                  Columns
+               </a>
+                <a className="navbar-item" href="https://versions.bulma.io/0.7.0/documentation/layout/container/">
+                  Layout
+               </a>
+                <a className="navbar-item" href="https://versions.bulma.io/0.7.0/documentation/form/general/">
+                  Form
+               </a>
+                <hr className="navbar-divider" />
+                <a className="navbar-item" href="https://versions.bulma.io/0.7.0/documentation/elements/box/">
+                  Elements
+               </a>
+                <a className="navbar-item is-active" href="https://versions.bulma.io/0.7.0/documentation/components/breadcrumb/">
+                  Components
+               </a>
+              </div>
+            </div>
+          </div>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="field is-grouped">
+                <p className="control">
+                  <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+                    <span className="icon">
+                      <i className="fab fa-twitter"></i>
+                    </span>
+                    <span>
+                      Tweet
+                  </span>
+                  </a>
+                </p>
+                <p className="control">
+                  <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.6.2/bulma-0.6.2.zip">
+                    <span className="icon">
+                      <i className="fas fa-download"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero is-large">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Large title
+      </h1>
+            <h2 class="subtitle">
+              Large subtitle
+      </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section hero is-block is-relative is-small details">
+        <div class="container">
+
+          <div className="box">
+
+            <form class="form-horizontal" >
+              <fieldset>
+
+
+                <legend>Personal Details</legend>
+
+
+                <div class="field">
+                  <label class="label" for="">Full name</label>
+                  <div class="control">
+                    <input id="" name="" type="text" placeholder="eg. Douglas Smith" class="input " required="" />
+
+                  </div>
+                </div>
+
+
+                <div class="field">
+                  <label class="label" for="email">Email address</label>
+                  <div class="control">
+                    <input id="email" name="email" type="text" placeholder="eg. youremail@gmail.com" class="input " />
+
+                  </div>
+                </div>
+
+
+                <div class="field">
+                  <label class="label" for="phone">Phone number</label>
+                  <div class="control">
+                    <input id="phone" name="phone" type="text" placeholder="eg. 8959076776" class="input " />
+
+                  </div>
+                </div>
+
+
+                <div class="field">
+                  <label class="label" for="city">City</label>
+                  <div class="control">
+                    <input id="city" name="city" type="text" placeholder="eg. current city of stay" class="input " />
+
+                  </div>
+                </div>
+
+
+                <div class="field">
+                  <label class="label" for="country">Country</label>
+                  <div class="control">
+                    <input id="country" name="country" type="text" placeholder="eg. USA, India, Italy" class="input " />
+
+                  </div>
+                </div>
+
+
+                <div class="field">
+                  <label class="label" for="zip">Zip Code</label>
+                  <div class="control">
+                    <input id="zip" name="zip" type="text" placeholder="eg. 90201" class="input " />
+
+                  </div>
+                </div>
+
+
+                <div class="field">
+                  <label class="label" for="address">Current Address</label>
+                  <div class="control">
+                    <textarea class="textarea" id="address" name="address"></textarea>
+                  </div>
+                </div>
+
+              </fieldset>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+        </div>
+      </footer>
+
     </div>
   );
 }
