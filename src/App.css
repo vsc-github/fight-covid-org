@@ -60,7 +60,7 @@
   color: rgba(0, 0, 0, .7);
 }
 
-.App .details .buttons .button{
+.App .details .buttons .button {
   background-color: #556b2f;
   color: #e6ddd1;
   margin: 3rem 0 10rem 0;
@@ -68,4 +68,13 @@
   max-width: 90vw;
 }
 
+.App .details .buttons .button:hover {
+  background-color: #556b2f;
+}
 
+.App .details .state {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 3rem 0 10rem 0;
+}

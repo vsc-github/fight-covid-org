@@ -9,14 +9,30 @@ class DetailsInput extends Component {
     constructor() {
         super();
         this.state = {
-
+            state: '',
         };
 
         this.onSubmitForm = this.onSubmitForm.bind(this);
+        this.renderButton = this.renderButton.bind(this);
     }
 
     componentDidMount() {
 
+    }
+
+    renderButton(){
+        switch(this.state.state){
+            case '':
+            return (<div class="buttons is-centered submit">
+            <div class="button is-primary is-inverted is-large" href="" onClick={this.onSubmitForm}>Submit</div>
+        </div>);
+
+            case 'loading':
+            return (<div className="state">Please wait...</div>);
+
+            case 'success':
+            return (<div className="state">Thank you! We will reach out to you shortly.</div>);
+        }
     }
 
     onSubmitForm() {
@@ -28,7 +44,9 @@ class DetailsInput extends Component {
         formData.forEach((value, key) => { fields[key] = value });
         fields.id = new Date().getTime();
 
-        console.log("object",fields);
+        this.setState({
+            state: 'loading',
+        });
 
         base('Imported table').create([
             {
@@ -38,6 +56,11 @@ class DetailsInput extends Component {
             if (err) {
               console.error(err);
               return;
+            }
+            else{
+                this.setState({
+                    state: 'success',
+                });
             }
             records.forEach(function (record) {
             //   console.log(record.getId());
@@ -273,9 +296,9 @@ class DetailsInput extends Component {
 
             </div>
 
-            <div class="buttons is-centered submit">
-                <div class="button is-primary is-inverted is-large" href="" onClick={this.onSubmitForm}>Submit</div>
-            </div>
+            {
+                this.renderButton()
+            }
 
         </form>
         );
