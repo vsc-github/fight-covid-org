@@ -21,9 +21,9 @@ function App() {
           </div>
           <div class="navbar-menu">
             <div class="navbar-end">
-              <div class="navbar-item"><a class="navbar-item" href="/features">Features</a><a class="navbar-item" href="/pricing">Pricing</a><a class="navbar-item" title="Web Performance Blog" href="/web-performance-blog">Blog</a><a class="navbar-item" href="/contact">Contact</a></div>
+              {/* <div class="navbar-item"><a class="navbar-item" href="/features">Features</a><a class="navbar-item" href="/pricing">Pricing</a><a class="navbar-item" title="Web Performance Blog" href="/web-performance-blog">Blog</a><a class="navbar-item" href="/contact">Contact</a></div> */}
               <div class="navbar-item">
-                <div class="buttons"><a class="button is-light" href="/pricing">Get Started</a><a class="button is-primary" href="/sign-in">Log in</a></div>
+                <div class="buttons"><a class="button is-light" href="#fill-form">Get Help</a></div>
               </div>
             </div>
           </div>
@@ -64,9 +64,7 @@ function App() {
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            By Waylo COVID19 Task Force.
     </p>
         </div>
       </footer>
