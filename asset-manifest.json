@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fight-covid-org/static/css/main.f59c306d.chunk.css",
+    "main.css": "/fight-covid-org/static/css/main.a35acdef.chunk.css",
     "main.js": "/fight-covid-org/static/js/main.47214e6b.chunk.js",
     "main.js.map": "/fight-covid-org/static/js/main.47214e6b.chunk.js.map",
     "runtime-main.js": "/fight-covid-org/static/js/runtime-main.179d1b16.js",
@@ -9,10 +9,10 @@
     "static/js/2.df02eee8.chunk.js": "/fight-covid-org/static/js/2.df02eee8.chunk.js",
     "static/js/2.df02eee8.chunk.js.map": "/fight-covid-org/static/js/2.df02eee8.chunk.js.map",
     "index.html": "/fight-covid-org/index.html",
-    "precache-manifest.2d842c176290b5db75a7f4c28e689b12.js": "/fight-covid-org/precache-manifest.2d842c176290b5db75a7f4c28e689b12.js",
+    "precache-manifest.ec6e7a6bc285f11459dadf5c53de5484.js": "/fight-covid-org/precache-manifest.ec6e7a6bc285f11459dadf5c53de5484.js",
     "service-worker.js": "/fight-covid-org/service-worker.js",
     "static/css/2.b9b2dd63.chunk.css.map": "/fight-covid-org/static/css/2.b9b2dd63.chunk.css.map",
-    "static/css/main.f59c306d.chunk.css.map": "/fight-covid-org/static/css/main.f59c306d.chunk.css.map",
+    "static/css/main.a35acdef.chunk.css.map": "/fight-covid-org/static/css/main.a35acdef.chunk.css.map",
     "static/js/2.df02eee8.chunk.js.LICENSE.txt": "/fight-covid-org/static/js/2.df02eee8.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/fight-covid-org/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.179d1b16.js",
     "static/css/2.b9b2dd63.chunk.css",
     "static/js/2.df02eee8.chunk.js",
-    "static/css/main.f59c306d.chunk.css",
+    "static/css/main.a35acdef.chunk.css",
     "static/js/main.47214e6b.chunk.js"
   ]
 }
