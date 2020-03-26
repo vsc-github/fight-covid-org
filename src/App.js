@@ -49,11 +49,11 @@ function App() {
       <section class="section hero is-block is-relative is-small details" id="fill-form">
         <div class="container">
 
-          <div className="box">
+          
 
             <DetailsInput />
 
-          </div>
+          
 
         </div>
       </section>
