@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 // import axios from 'axios';
 
+var Airtable = require('airtable');
+var base = new Airtable({apiKey: 'key6onyxrwfDMB9eJ'}).base('appNa1AT6J1nfOhTz');
+
 
 class DetailsInput extends Component {
     constructor() {
@@ -17,12 +20,29 @@ class DetailsInput extends Component {
     }
 
     onSubmitForm() {
+
         const form = document.forms.borrower;
         const formData = new FormData(form);
 
-        var object = {};
-        formData.forEach((value, key) => { object[key] = value });
-        console.log("JSON SSS",object);
+        var fields = {};
+        formData.forEach((value, key) => { fields[key] = value });
+        fields.id = new Date().getTime();
+
+        console.log("object",fields);
+
+        base('Imported table').create([
+            {
+              "fields": fields
+            }
+          ], (err, records) => {
+            if (err) {
+              console.error(err);
+              return;
+            }
+            records.forEach(function (record) {
+            //   console.log(record.getId());
+            });
+          });
 
     }
 
@@ -41,7 +61,7 @@ class DetailsInput extends Component {
                     <div class="field">
                         <label class="label" for="">Full name</label>
                         <div class="control">
-                            <input id="" name="" type="text" placeholder="eg. Douglas Smith" class="input " required="" />
+                            <input id="name" name="name" type="text" placeholder="eg. Douglas Smith" class="input " required="" />
 
                         </div>
                     </div>
