@@ -53,7 +53,10 @@ function App() {
 
             <DetailsInput />
 
-          
+            <div class="buttons is-centered submit">
+              <a class="button is-primary is-inverted is-large" href="#fill-form">Submit</a>
+            </div>
+
 
         </div>
       </section>
