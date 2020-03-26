@@ -1,3 +1,21 @@
+.App nav {
+  background-color: #556b2f;
+  color: #e6ddd1;
+}
+
+.App nav .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e6ddd1;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.App nav .logo span{
+  margin: 0 0 0 .5rem;
+}
+
 .App .hero {
   background-color: #556b2f;
   color: #e6ddd1;
