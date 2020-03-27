@@ -12,6 +12,7 @@ class DetailsInput extends Component {
         super();
         this.state = {
             state: '',
+            user: null,
         };
 
         this.onSubmitForm = this.onSubmitForm.bind(this);
@@ -121,17 +122,10 @@ class DetailsInput extends Component {
     }
 
     handleSignedInUser(user) {
-        document.getElementById('user-signed-in').style.display = 'block';
-        document.getElementById('user-signed-out').style.display = 'none';
-        document.getElementById('name').textContent = user.displayName;
-        document.getElementById('email').textContent = user.email;
-        document.getElementById('phone').textContent = user.phoneNumber;
-        if (user.photoURL) {
-            document.getElementById('photo').src = user.photoURL;
-            document.getElementById('photo').style.display = 'block';
-        } else {
-            document.getElementById('photo').style.display = 'none';
-        }
+        console.log("user",user);
+        this.setState({
+            user
+        });
     };
 
 
@@ -140,8 +134,8 @@ class DetailsInput extends Component {
      */
     handleSignedOutUser() {
         var ui = new firebaseui.auth.AuthUI(firebase.auth());
-        document.getElementById('user-signed-in').style.display = 'none';
-        document.getElementById('user-signed-out').style.display = 'block';
+        // document.getElementById('user-signed-in').style.display = 'none';
+        // document.getElementById('user-signed-out').style.display = 'block';
         ui.start('#firebaseui-container', this.getUiConfig());
     };
 
@@ -406,29 +400,11 @@ class DetailsInput extends Component {
             </div>
 
             <div id="container">
-                <h3>Firebase Phone Number Auth. Demo</h3>
                 <div id="loading">Loading...</div>
                 <div id="loaded" class="hidden">
                     <div id="main">
-                        <div id="user-signed-in" class="hidden">
-                            <div id="user-info">
-                                <div id="photo-container">
-                                    <img id="photo" />
-                                </div>
-                                <div id="name"></div>
-                                <div id="email"></div>
-                                <div id="phone"></div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <p>
-                                <button id="sign-out">Sign Out</button>
-                                <button id="delete-account">Delete account</button>
-                            </p>
-                        </div>
                         <div id="user-signed-out" class="hidden">
-                            <h4>You are signed out.</h4>
                             <div id="firebaseui-spa">
-                                <h3>Single Page App mode:</h3>
                                 <div id="firebaseui-container"></div>
                             </div>
                         </div>
