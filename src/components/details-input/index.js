@@ -72,6 +72,7 @@ class DetailsInput extends Component {
 
         var fields = {};
         formData.forEach((value, key) => { fields[key] = value });
+        fields.phone = this.state.user.phoneNumber;
         fields.id = new Date().getTime();
 
         this.setState({
@@ -203,15 +204,6 @@ class DetailsInput extends Component {
                         <label class="label" for="email">Email address</label>
                         <div class="control">
                             <input id="email" name="email" type="text" placeholder="eg. youremail@gmail.com" class="input " />
-
-                        </div>
-                    </div>
-
-
-                    <div class="field">
-                        <label class="label" for="phone">Phone number</label>
-                        <div class="control">
-                            <input id="phone" name="phone" type="text" placeholder="eg. 8959076776" class="input " />
 
                         </div>
                     </div>
