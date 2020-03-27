@@ -45,6 +45,7 @@ class DetailsInput extends Component {
     }
 
     renderButton() {
+
         switch (this.state.state) {
             case '':
                 return (<div class="buttons is-centered submit">
@@ -60,6 +61,11 @@ class DetailsInput extends Component {
     }
 
     onSubmitForm() {
+
+        if(this.state.user === null){
+            alert('Please verify you phone number.')
+            return;
+        }
 
         const form = document.forms.borrower;
         const formData = new FormData(form);
@@ -400,8 +406,8 @@ class DetailsInput extends Component {
             </div>
 
             <div id="container">
-                <div id="loading">Loading...</div>
-                <div id="loaded" class="hidden">
+                <div className="box" id="loading">Loading...</div>
+                <div className="box" id="loaded" class="hidden">
                     <div id="main">
                         <div id="user-signed-out" class="hidden">
                             <div id="firebaseui-spa">
@@ -411,6 +417,12 @@ class DetailsInput extends Component {
                     </div>
                 </div>
             </div>
+
+            {
+                this.state.user === null ? null : (<div className="box">
+                    <div>Phone number <strong>{this.state.user.phoneNumber}</strong> has been verified.</div>
+                </div>)
+            }
 
             {
                 this.renderButton()
