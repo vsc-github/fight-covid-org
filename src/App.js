@@ -34,7 +34,7 @@ function App() {
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
-              Get help in these tough times
+            Get Help to Overcome Financial Stress
       </h1>
             <h2 class="subtitle">
               Fightcovid.org is a non-profit that expands access to capital for those affected with COVID19 around the world. More than 2.5 million people have raised over $1 billion on Kiva. Could you be next?
