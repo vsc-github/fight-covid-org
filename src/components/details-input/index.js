@@ -35,13 +35,13 @@ class DetailsInput extends Component {
                 document.getElementById('loaded').style.display = 'block';
                 user ? this.handleSignedInUser(user) : this.handleSignedOutUser();
             });
-    
+
             window.addEventListener('load', this.initApp);
 
 
-          }, 3000);
+        }, 3000);
 
-       
+
     }
 
     renderButton() {
@@ -62,7 +62,7 @@ class DetailsInput extends Component {
 
     onSubmitForm() {
 
-        if(this.state.user === null){
+        if (this.state.user === null) {
             alert('Please verify you phone number.')
             return;
         }
@@ -129,7 +129,7 @@ class DetailsInput extends Component {
     }
 
     handleSignedInUser(user) {
-        console.log("user",user);
+        console.log("user", user);
         this.setState({
             user
         });
@@ -148,7 +148,7 @@ class DetailsInput extends Component {
 
     // Listen to change in auth state so it displays the correct UI for when
     // the user is signed in or not.
-    
+
 
     /**
      * Deletes the user's account.
@@ -385,7 +385,35 @@ class DetailsInput extends Component {
 
 
                     <div class="field">
-                        <label class="label" for="payment">Enter Financial Details (UPI, paytm, venmo, cashapp, etc)</label>
+                        <label class="label" for="cashapp">Cashapp</label>
+                        <div class="control">
+                            <input id="cashapp" name="cashapp" type="text" placeholder="$mary123" class="input " />
+
+                        </div>
+                    </div>
+
+
+                    <div class="field">
+                        <label class="label" for="venmo">Venmo</label>
+                        <div class="control">
+                            <input id="venmo" name="venmo" type="text" placeholder="eg. @markvenmo" class="input " />
+
+                        </div>
+                    </div>
+
+
+                    <div class="field">
+                        <label class="label" for="upi">UPI</label>
+                        <div class="control">
+                            <input id="upi" name="upi" type="text" placeholder="eg. sandy@ybl" class="input " />
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="field">
+                        <label class="label" for="payment">Any other financial details</label>
                         <div class="control">
                             <textarea class="textarea" id="payment" name="payment"></textarea>
                         </div>
