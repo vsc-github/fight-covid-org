@@ -290,6 +290,14 @@ class DetailsInput extends Component {
                             </div>
                         </div>
 
+                        <div class="field">
+                            <label class="label" for="field">Licences and Certificates</label>
+                            <div class="control">
+                                <input id="certificates" name="certificates" type="text" placeholder="eg. project management, solutions architect  etc" class="input " />
+
+                            </div>
+                        </div>
+
 
                         <div class="field">
                             <label class="label" for="skills">Please enter as many skills you have</label>
@@ -325,7 +333,7 @@ class DetailsInput extends Component {
 
 
                     <div class="field">
-                        <label class="label" for="jobtype">Employment Type</label>
+                        <label class="label" for="jobtype">Employment Type (Full Time, Part Time, Casual/Hourly)</label>
                         <div class="control">
                             <input id="jobtype" name="jobtype" type="text" class="input " />
 
@@ -343,7 +351,21 @@ class DetailsInput extends Component {
 
 
                     <div class="field">
-                        <label class="label" for="previously">Were you previously empolyed?</label>
+                        <label class="label" for="affect">Did Covid-19 affect your employment?</label>
+                        <div class="control">
+                            <label class="radio" for="previously-0">
+                                <input type="radio" name="affect" id="affect-0" value="Yes" checked="checked" />
+                                Yes
+    </label>
+                            <label class="radio" for="previously-1">
+                                <input type="radio" name="affect" id="affect-1" value="No" />
+                                No
+    </label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="previously">Will your job come back after Covid-19?</label>
                         <div class="control">
                             <label class="radio" for="previously-0">
                                 <input type="radio" name="previously" id="previously-0" value="Yes" checked="checked" />
@@ -352,6 +374,10 @@ class DetailsInput extends Component {
                             <label class="radio" for="previously-1">
                                 <input type="radio" name="previously" id="previously-1" value="No" />
                                 No
+    </label>
+                            <label class="radio" for="previously-1">
+                                <input type="radio" name="previously" id="previously-1" value="No" />
+                                Maybe
     </label>
                         </div>
                     </div>
@@ -383,6 +409,14 @@ class DetailsInput extends Component {
 
                     <legend>Financial Details</legend>
 
+
+                    <div class="field">
+                        <label class="label" for="cashapp">Paypal</label>
+                        <div class="control">
+                            <input id="paypal" name="paypal" type="text" placeholder="freddie@gmail.com" class="input " />
+
+                        </div>
+                    </div>
 
                     <div class="field">
                         <label class="label" for="cashapp">Cashapp</label>

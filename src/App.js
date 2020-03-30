@@ -14,7 +14,7 @@ function App() {
             <div class="navbar-item">
               <a href="/" className="logo">
                 <img class="image" src="https://res.cloudinary.com/diknntl0x/image/upload/v1585200205/fightcovid_n86cam.svg" alt="Page Speed monitoring" title="Web Performance Monitoring Service" />
-                <span>fightcovid.org</span>
+                <span>Humans Against Disaster</span>
               </a>
             </div>
             <div role="button" class="navbar-burger burger" tabindex="0"><span></span><span></span><span></span></div>
@@ -37,7 +37,8 @@ function App() {
             Get Help to Overcome Financial Stress
       </h1>
             <h2 class="subtitle">
-              Fightcovid.org is a non-profit that expands access to capital for those affected with COVID19 around the world. More than 2.5 million people have raised over $1 billion on Kiva. Could you be next?
+            Humans Against Disaster is a Non-Profit helping those affected by disasters get access to immediate funding from around the world. 
+COVID-19 is everyone's disaster, but together we can help those in need.
       </h2>
             <div class="buttons is-centered">
               <a class="button is-primary is-inverted is-medium" href="#fill-form">Get Started</a>
