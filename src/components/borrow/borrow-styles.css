@@ -1,0 +1,81 @@
+.App nav {
+    background-color: #556b2f;
+    color: #e6ddd1;
+  }
+  
+  .App nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e6ddd1;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .App nav .logo span {
+    margin: 0 0 0 .5rem;
+  }
+  
+  .App .hero {
+    background-color: #556b2f;
+    color: #e6ddd1;
+  }
+  
+  .App .hero-body {
+    text-align: center;
+  }
+  
+  .App .hero-body .container {
+    max-width: 60rem;
+  }
+  
+  .App .hero-body .container .title {
+    color: #e6ddd1;
+  }
+  
+  .App .hero-body .container .subtitle {
+    color: #e6ddd1;
+    margin: 1rem 0;
+  }
+  
+  .App .hero-body .container .buttons .button {
+    background-color: #e6ddd1;
+    color: #556b2f;
+    margin: 1rem 0 0 0;
+  }
+  
+  .App .box {
+    max-width: 50rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .App .box legend {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .App .details {
+    background-color: #d5cab9;
+    color: rgba(0, 0, 0, .7);
+  }
+  
+  .App .details .buttons .button {
+    background-color: #556b2f;
+    color: #e6ddd1;
+    margin: 3rem 0 10rem 0;
+    padding: 0 7rem;
+    max-width: 90vw;
+  }
+  
+  .App .details .buttons .button:hover {
+    background-color: #556b2f;
+  }
+  
+  .App .details .state {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 3rem 0 10rem 0;
+  }
