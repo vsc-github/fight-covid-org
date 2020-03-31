@@ -30,7 +30,7 @@ export default function App() {
 function Home() {
   return <div>
 
-    <h2>Landing page here.</h2>
+    <h2></h2>
 
     <nav>
       <ul>
