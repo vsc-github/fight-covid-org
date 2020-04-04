@@ -12,7 +12,7 @@ function Borrow() {
           <div class="navbar-brand">
             <div class="navbar-item">
               <a href="/" className="logo">
-                <img class="image" src="https://res.cloudinary.com/diknntl0x/image/upload/v1585200205/fightcovid_n86cam.svg" alt="Page Speed monitoring" title="Web Performance Monitoring Service" />
+                <img class="image" src="https://res.cloudinary.com/diknntl0x/image/upload/v1585982215/logo_kp9op5.svg" alt="Page Speed monitoring" title="Web Performance Monitoring Service" />
                 <span>Humans Against Disaster</span>
               </a>
             </div>

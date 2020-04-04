@@ -15,6 +15,11 @@
   .App nav .logo span {
     margin: 0 0 0 .5rem;
   }
+
+  .navbar-item img{
+    max-height: 3rem !important;
+    margin: 0 1rem 0 0;
+  }
   
   .App .hero {
     background-color: #556b2f;
