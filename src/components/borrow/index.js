@@ -22,7 +22,12 @@ function Borrow() {
             <div class="navbar-end">
               {/* <div class="navbar-item"><a class="navbar-item" href="/features">Features</a><a class="navbar-item" href="/pricing">Pricing</a><a class="navbar-item" title="Web Performance Blog" href="/web-performance-blog">Blog</a><a class="navbar-item" href="/contact">Contact</a></div> */}
               <div class="navbar-item">
-                <div class="buttons"><a class="button is-light" href="#fill-form">Get Help</a></div>
+                <div class="buttons" style={{ fontWeight: '600'}}>
+
+                <a href="https://try.typeform.com/covid-19/" target="_blank" className="button is-light">DONATE</a>
+                
+                
+                </div>
               </div>
             </div>
           </div>

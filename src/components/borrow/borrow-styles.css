@@ -44,8 +44,10 @@
   }
   
   .App .hero-body .container .buttons .button {
+    color: #3a4a1f;
+    font-weight: 600;
+
     background-color: #e6ddd1;
-    color: #556b2f;
     margin: 1rem 0 0 0;
   }
   

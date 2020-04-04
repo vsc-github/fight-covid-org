@@ -75,6 +75,8 @@ class DetailsInput extends Component {
         fields.phone = this.state.user.phoneNumber;
         fields.id = new Date().getTime();
 
+        delete fields.certificates;
+
         this.setState({
             state: 'loading',
         });
