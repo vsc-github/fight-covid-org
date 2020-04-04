@@ -46,6 +46,8 @@
 .home .cover nav .link.button {
     color: black;
     width: 10rem;
+    display: block;
+    margin: 0;
 }
 
 .home .cover .banner {
