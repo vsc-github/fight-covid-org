@@ -41,7 +41,7 @@ function Home() {
         <div className="gap"></div>
         <Link href="/borrow" to="/borrow" className="link">GET HELP</Link>
         <a href="#why-had" className="link">WHY HAD</a>
-        <a href="https://try.typeform.com/covid-19/" target="_blank" className="link button">DONATE</a>
+        <a href="https://humanagainstdisaster.typeform.com/to/HSt9Rq" target="_blank" className="link button">DONATE</a>
       </nav>
 
       <div className="banner">
