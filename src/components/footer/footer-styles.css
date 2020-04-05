@@ -1,0 +1,8 @@
+footer.footer {
+    background-color: #e6e6e6;
+    padding: 3rem 1.5rem 4rem;
+}
+
+.footer .content a {
+    margin: 0 1rem 0 0;
+}
