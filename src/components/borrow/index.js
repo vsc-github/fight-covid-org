@@ -24,7 +24,7 @@ function Borrow() {
               <div class="navbar-item">
                 <div class="buttons" style={{ fontWeight: '600'}}>
 
-                <a href="https://try.typeform.com/covid-19/" target="_blank" className="button is-light">DONATE</a>
+                <a href="https://humanagainstdisaster.typeform.com/to/HSt9Rq" target="_blank" className="button is-light">DONATE</a>
                 
                 
                 </div>
