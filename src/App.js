@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Borrow from './components/borrow'
+import Footer from './components/footer'
 import './App.css'
 
 export default function App() {
@@ -105,6 +106,8 @@ function Home() {
 
       <div className="bottom"></div>
     </section>
+
+    <Footer/>
 
   </div>;
 }

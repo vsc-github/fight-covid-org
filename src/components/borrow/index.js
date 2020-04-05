@@ -2,6 +2,7 @@ import React from 'react';
 import './borrow-styles.css';
 
 import DetailsInput from './../details-input'
+import Footer from './../footer'
 
 function Borrow() {
   return (
@@ -64,13 +65,7 @@ COVID-19 is everyone's disaster, but together we can help those in need.
         </div>
       </section>
 
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            By Waylo COVID19 Task Force.
-    </p>
-        </div>
-      </footer>
+      <Footer />
 
     </div>
   );
