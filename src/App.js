@@ -104,7 +104,7 @@ function Home() {
         An estimated 30% would lose their jobs during the Coronavirus pandemic. The unemployment exchanges won't be able to deal with this volume quickly. Many around the world, would need money for food, shelter and medications.
     </div> */}
       <div className="description">
-      We looked a various options like Kiva.org, gofundme.com and others. We didn't find a way to contribute in real-time to those in need. Humans Against Disaster was born out of our experience in trying to donate.
+        We looked a various options like Kiva.org, gofundme.com and others. We didn't find a way to contribute in real-time to those in need. Humans Against Disaster was born out of our experience in trying to donate.
       </div>
 
       <div className="team">HAD is a 100% volunteer project by the same team behind <a href="https://thewaylo.com" target="_blank">Waylo Price Prediction</a></div>
@@ -112,7 +112,7 @@ function Home() {
       <div className="bottom"></div>
     </section>
 
-    <section id="why-had">
+    <section>
       <div className="title">COVID-19 GLOBAL PANDEMIC</div>
 
       <div className="description">
@@ -122,6 +122,24 @@ function Home() {
       <div className="gallery">
         <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585982215/group_ddk02j.png" />
       </div>
+
+      <div className="bottom"></div>
+    </section>
+
+    <section id="why-had" className="newsletter">
+      <div className="title">SUBSCRIBE</div>
+
+      <div className="description">
+      Sign up with your email address to receive news and updates from Neighbor Express. We may share updates on ways to volunteer or to receive services here as they come up.
+      </div>
+
+      <form name="contact" method="POST" data-netlify="true" >
+        
+        <p>
+          <input type="email" name="email" placeholder="Email Address" />  <button type="submit">Sign Up</button> 
+        </p>
+       
+      </form>
 
       <div className="bottom"></div>
     </section>
