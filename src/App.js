@@ -130,7 +130,7 @@ function Home() {
       <div className="title">SUBSCRIBE</div>
 
       <div className="description">
-        Sign up with your email address to receive news and updates from Neighbor Express. We may share updates on ways to volunteer or to receive services here as they come up.
+        Sign up with your email address to receive news and updates from Humans Against Disaster. We may share updates on ways to volunteer or to receive services here as they come up.
       </div>
 
       <form name="contact" method="POST" >
