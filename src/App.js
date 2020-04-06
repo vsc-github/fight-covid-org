@@ -130,15 +130,16 @@ function Home() {
       <div className="title">SUBSCRIBE</div>
 
       <div className="description">
-      Sign up with your email address to receive news and updates from Neighbor Express. We may share updates on ways to volunteer or to receive services here as they come up.
+        Sign up with your email address to receive news and updates from Neighbor Express. We may share updates on ways to volunteer or to receive services here as they come up.
       </div>
 
-      <form name="contact" method="POST" data-netlify="true" >
-        
+      <form name="contact" method="POST" >
+        <input type="hidden" name="form-name" value="contact" />
+
         <p>
-          <input type="email" name="email" placeholder="Email Address" />  <button type="submit">Sign Up</button> 
+          <input type="email" name="email" placeholder="Email Address" />  <button type="submit">Sign Up</button>
         </p>
-       
+
       </form>
 
       <div className="bottom"></div>
