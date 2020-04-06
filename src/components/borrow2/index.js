@@ -73,7 +73,7 @@ const Borrow2 = () => (
                     <div class="field">
                       <label class="label" for="country">Country</label>
                       <div class="control">
-                        <input id="country" name="country" type="text" placeholder="eg. USA, India, Italy" class="input " />
+                        <input id="country" name="country" type="text" placeholder="Country" class="input " />
 
                       </div>
                     </div>
@@ -82,7 +82,7 @@ const Borrow2 = () => (
                     <div class="field">
                       <label class="label" for="zip">Zip Code</label>
                       <div class="control">
-                        <input id="zip" name="zip" type="text" placeholder="eg. 90201" class="input " />
+                        <input id="zip" name="zip" type="text" placeholder="Zip Code" class="input " />
 
                       </div>
                     </div>
@@ -146,11 +146,11 @@ const Borrow2 = () => (
                           <label class="radio inline" for="student-0">
                             <input type="radio" name="student" id="student-0" value="Yes" checked="checked" />
                             Yes
-</label>
+                          </label>
                           <label class="radio inline" for="student-1">
                             <input type="radio" name="student" id="student-1" value="No" />
                             No
-</label>
+                          </label>
                         </div>
                       </div>
 
@@ -158,7 +158,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="college">Highest level of education</label>
                         <div class="control">
-                          <input id="college" name="college" type="text" placeholder="eg. HSC, graduate, post graduate, etc" class="input " />
+                          <input id="college" name="college" type="text" placeholder="Name of College/University" class="input " />
 
                         </div>
                       </div>
@@ -167,7 +167,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="field">Field of study</label>
                         <div class="control">
-                          <input id="field" name="field" type="text" placeholder="eg. farming, technology, foods and services etc" class="input " />
+                          <input id="field" name="field" type="text" placeholder="Field of Study" class="input " />
 
                         </div>
                       </div>
@@ -175,7 +175,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="field">Licences and Certificates</label>
                         <div class="control">
-                          <input id="certificates" name="certificates" type="text" placeholder="eg. project management, solutions architect  etc" class="input " />
+                          <input id="certificates" name="certificates" type="text" placeholder="Licences and/or Certificates" class="input " />
 
                         </div>
                       </div>
@@ -241,7 +241,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="jobtitle">Job Title</label>
                         <div class="control">
-                          <input id="jobtitle" name="jobtitle" type="text" class="input " />
+                          <input id="jobtitle" name="jobtitle" type="text" class="input " placeholder="Job Title" />
 
                         </div>
                       </div>
@@ -250,7 +250,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="jobtype">Employment Type (Full Time, Part Time, Casual/Hourly)</label>
                         <div class="control">
-                          <input id="jobtype" name="jobtype" type="text" class="input " />
+                          <input id="jobtype" name="jobtype" type="text" class="input " placeholder="Employment Type (Full Time, Part Time, Casual/Hourly)" />
 
                         </div>
                       </div>
@@ -259,7 +259,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="company">Company</label>
                         <div class="control">
-                          <input id="company" name="company" type="text" class="input " />
+                          <input id="company" name="company" type="text" class="input " placeholder="Company" />
 
                         </div>
                       </div>
@@ -353,7 +353,7 @@ const Borrow2 = () => (
                   <p>Section 1 (welcome to fullpage.js)</p>
                   <button onClick={() => fullpageApi.moveSectionDown()}>
                     Click me to move down
-    </button>
+                  </button>
                 </div>
 
               </div>
