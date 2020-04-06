@@ -38,7 +38,7 @@ function Home() {
         <div className="logo">
           <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585982215/logo_kp9op5.svg" />
         </div>
-        
+
         <div className="gap"></div>
         <Link href="/borrow" to="/borrow" className="link">GET HELP</Link>
         <a href="#why-had" className="link">WHY HAD</a>
@@ -49,7 +49,7 @@ function Home() {
         <div className="title">Get help to overcome financial stress during COVID19</div>
         <Link to="/borrow" className="cta">Get Help</Link>
       </div>
-      
+
 
     </div>
 
@@ -62,33 +62,52 @@ function Home() {
     </section>
 
     <section className="how">
-      <div className="title">REGISTER TO GET HELP</div>
+      <div className="title">HOW IT WORKS</div>
 
       <div className="description">
-      100% of all donation are given to those in need in Real-Time. Donations are never held by HAD.
+        Humans Against Disaster (HAD) is a non-profit run 100% by volunteers. We match potential donors with those in need. The money donors contribute goes directly to those in need.
       </div>
+
+      <br />
+      <div className="sectitle">WANT TO DONATE TO THOSE IN NEED?</div>
+      <br />
 
       <div className="tiles">
         <div className="tile">
           <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585981466/create_rfelwk.svg" />
-          <div className="heading">Create an account</div>
-          <div className="sub">Tell us how you have been affected. </div>
-        
+          <div className="heading">Submit Info</div>
+          <div className="sub">Answer 6 short questions to get matches.</div>
+
         </div>
         <div className="tile">
           <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585981464/share_fh7aun.svg" />
-          <div className="heading">Share your details</div>
-          <div className="sub">We will share your story to as many people as we can. </div>
-        
+          <div className="heading">Get Matched</div>
+          <div className="sub">We hand pick 5 vetted matches for you.</div>
+
         </div>
         <div className="tile">
           <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585981462/help_kh2kki.svg" />
-          <div className="heading">Get help</div>
-          <div className="sub"> Receive direct financial help or job offer to get you through this time.  </div>
-        
+          <div className="heading">Donate Directly</div>
+          <div className="sub">HAD is not involved in the donation. You would transfer money directly.  </div>
+
         </div>
-      
+
       </div>
+
+      <div className="bottom"></div>
+    </section>
+
+    <section id="why-had">
+      <div className="title">Why HAD?</div>
+
+      {/* <div className="description">
+        An estimated 30% would lose their jobs during the Coronavirus pandemic. The unemployment exchanges won't be able to deal with this volume quickly. Many around the world, would need money for food, shelter and medications.
+    </div> */}
+      <div className="description">
+      We looked a various options like Kiva.org, gofundme.com and others. We didn't find a way to contribute in real-time to those in need. Humans Against Disaster was born out of our experience in trying to donate.
+      </div>
+
+      <div className="team">HAD is a 100% volunteer project by the same team behind <a href="https://thewaylo.com" target="_blank">Waylo Price Prediction</a></div>
 
       <div className="bottom"></div>
     </section>
@@ -97,8 +116,8 @@ function Home() {
       <div className="title">COVID-19 GLOBAL PANDEMIC</div>
 
       <div className="description">
-      The Coronavirus has disrupted millions of people in almost every industry. Together so we can all make it through this pandemic.
-      </div>
+        The Coronavirus has disrupted millions of people in almost every industry. Together so we can all make it through this pandemic.
+  </div>
 
       <div className="gallery">
         <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585982215/group_ddk02j.png" />
@@ -107,7 +126,7 @@ function Home() {
       <div className="bottom"></div>
     </section>
 
-    <Footer/>
+    <Footer />
 
   </div>;
 }
