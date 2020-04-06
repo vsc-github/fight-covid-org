@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Borrow from './components/borrow'
+import Borrow2 from './components/borrow2'
 import Footer from './components/footer'
 import './App.css'
 
@@ -19,6 +20,9 @@ export default function App() {
         <Switch>
           <Route path="/borrow">
             <Borrow />
+          </Route>
+          <Route path="/borrow2">
+            <Borrow2 />
           </Route>
           <Route path="/">
             <Home />
