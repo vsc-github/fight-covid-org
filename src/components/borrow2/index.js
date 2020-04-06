@@ -134,7 +134,7 @@ const Borrow2 = () => (
 
                   <div className="box">
 
-                    <legend>Educational Details</legend>
+                    <legend>Educationa Details</legend>
 
 
                     <fieldset>
@@ -180,14 +180,6 @@ const Borrow2 = () => (
                         </div>
                       </div>
 
-
-                      <div class="field">
-                        <label class="label" for="skills">Please enter as many skills you have</label>
-                        <div class="control">
-                          <input id="skills" name="skills" type="text" placeholder="eg. cooking, cleaning, driving, accounting, typing etc" class="input " />
-
-                        </div>
-                      </div>
 
                     </fieldset>
 
@@ -271,11 +263,11 @@ const Borrow2 = () => (
                           <label class="radio" for="previously-0">
                             <input type="radio" name="affect" id="affect-0" value="Yes" checked="checked" />
                             Yes
-</label>
+                          </label>
                           <label class="radio" for="previously-1">
                             <input type="radio" name="affect" id="affect-1" value="No" />
                             No
-</label>
+                          </label>
                         </div>
                       </div>
 
@@ -285,15 +277,15 @@ const Borrow2 = () => (
                           <label class="radio" for="previously-0">
                             <input type="radio" name="previously" id="previously-0" value="Yes" checked="checked" />
                             Yes
-</label>
+                          </label>
                           <label class="radio" for="previously-1">
                             <input type="radio" name="previously" id="previously-1" value="No" />
                             No
-</label>
+                          </label>
                           <label class="radio" for="previously-1">
                             <input type="radio" name="previously" id="previously-1" value="No" />
                             Maybe
-</label>
+                          </label>
                         </div>
                       </div>
 
@@ -304,11 +296,11 @@ const Borrow2 = () => (
                           <label class="radio" for="remote-0">
                             <input type="radio" name="remote" id="remote-0" value="Yes" checked="checked" />
                             Yes
-</label>
+                        </label>
                           <label class="radio" for="remote-1">
                             <input type="radio" name="remote" id="remote-1" value="No" />
                             No
-</label>
+                        </label>
                         </div>
                       </div>
 
@@ -316,7 +308,7 @@ const Borrow2 = () => (
 
                     <button onClick={() => fullpageApi.moveSectionDown()}>
                       Next
-                </button>
+                    </button>
 
                   </div>
 
@@ -350,10 +342,31 @@ const Borrow2 = () => (
                 </div>
                 <div className="right">
 
-                  <p>Section 1 (welcome to fullpage.js)</p>
-                  <button onClick={() => fullpageApi.moveSectionDown()}>
-                    Click me to move down
-                  </button>
+                <div className="top"> Already signed up? <span>Sign in</span></div>
+
+                <div className="box">
+                
+                <fieldset>
+
+
+                      <legend>Add Skills</legend>
+
+
+                      <div class="field">
+                        <label class="label" for="cashapp">Paypal</label>
+                        <div class="control">
+                          <input id="skills" name="skills" type="text" placeholder="writing, accounting, service industry, chef, homeworker" class="input " />
+
+                        </div>
+                      </div>
+
+                      </fieldset>
+
+                      <button onClick={() => fullpageApi.moveSectionDown()}>
+                        Next
+                      </button>
+
+                </div>
                 </div>
 
               </div>
@@ -397,7 +410,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="cashapp">Paypal</label>
                         <div class="control">
-                          <input id="paypal" name="paypal" type="text" placeholder="freddie@gmail.com" class="input " />
+                          <input id="paypal" name="paypal" type="text" placeholder="Paypal" class="input " />
 
                         </div>
                       </div>
@@ -405,7 +418,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="cashapp">Cashapp</label>
                         <div class="control">
-                          <input id="cashapp" name="cashapp" type="text" placeholder="$mary123" class="input " />
+                          <input id="cashapp" name="cashapp" type="text" placeholder="Cashapp" class="input " />
 
                         </div>
                       </div>
@@ -414,7 +427,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="venmo">Venmo</label>
                         <div class="control">
-                          <input id="venmo" name="venmo" type="text" placeholder="eg. @markvenmo" class="input " />
+                          <input id="venmo" name="venmo" type="text" placeholder="Venmo" class="input " />
 
                         </div>
                       </div>
@@ -423,7 +436,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="upi">UPI</label>
                         <div class="control">
-                          <input id="upi" name="upi" type="text" placeholder="eg. sandy@ybl" class="input " />
+                          <input id="upi" name="upi" type="text" placeholder="UPI" class="input " />
 
                         </div>
                       </div>
@@ -476,10 +489,31 @@ const Borrow2 = () => (
                 </div>
                 <div className="right">
 
-                  <p>Section 1 (welcome to fullpage.js)</p>
-                  <button onClick={() => fullpageApi.moveSectionDown()}>
-                    Click me to move down
-    </button>
+                <div className="top"> Already signed up? <span>Sign in</span></div>
+
+                <div className="box">
+                
+                <fieldset>
+
+
+                      <legend>Verify Phone Number</legend>
+
+
+                      {/* <div class="field">
+                        <label class="label" for="cashapp">Paypal</label>
+                        <div class="control">
+                          <input id="skills" name="skills" type="text" placeholder="writing, accounting, service industry, chef, homeworker" class="input " />
+
+                        </div>
+                      </div> */}
+
+                      </fieldset>
+
+                      <button onClick={() => fullpageApi.moveSectionDown()}>
+                        Next
+                      </button>
+
+                </div>
                 </div>
 
               </div>
