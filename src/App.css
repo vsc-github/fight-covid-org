@@ -180,6 +180,24 @@
 
 .home .team {
     margin: 0 0 3rem 0;
+    text-align: center;
+}
+
+.home .newsletter {
+    text-align: center;
+}
+
+.home .newsletter form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    .home .newsletter form {
+        flex-direction: row;
+    }
 }
 
 .home .newsletter .description {
@@ -191,7 +209,7 @@
     width: 18rem;
     font-size: 1rem;
     padding: .25rem 1rem;
-    margin: 2rem .5rem 3rem 0;
+    /* margin: 2rem .5rem 3rem 0; */
     border: 1px solid #929292;
     border-radius: 2px;
 }
@@ -211,4 +229,5 @@
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    margin: 1rem;
 }

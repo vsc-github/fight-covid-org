@@ -136,9 +136,9 @@ function Home() {
       <form name="contact" method="POST" >
         <input type="hidden" name="form-name" value="contact" />
 
-        <p>
+      
           <input type="email" name="email" placeholder="Email Address" />  <button type="submit">Sign Up</button>
-        </p>
+        
 
       </form>
 
