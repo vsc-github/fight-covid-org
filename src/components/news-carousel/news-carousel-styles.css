@@ -1,0 +1,64 @@
+.news-carousel {
+    position: relative;
+}
+
+.news-carousel button{
+    background: transparent;
+    border: none;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.news-carousel button.lefter{
+    margin-left: -4rem;
+}
+
+.news-carousel button.righter{
+    margin-right: -5rem;
+}
+
+.news-carousel .slide {
+    height: 27rem;
+}
+
+.news-carousel .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.news-carousel .slide img{
+    width: 100%;
+}
+
+.news-carousel .slide .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(5, 5, 5, 0) 0%, rgba(5, 5, 5, 0.6) 66.15%, rgba(5, 5, 5, 0.6) 82.69%, rgba(5, 5, 5, 0.6) 100%);
+    padding: 0 8rem 2rem 8rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.news-carousel .slide .content .headline{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.news-carousel .slide .content .cta{
+    color: #FF794F;
+    text-decoration: underline;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin: 1rem 0 0 0;
+}
