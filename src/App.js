@@ -9,6 +9,7 @@ import {
 import Borrow from './components/borrow'
 import Borrow2 from './components/borrow2'
 import Footer from './components/footer'
+import NewsCarousel from './components/news-carousel'
 import './App.css'
 
 export default function App() {
@@ -124,7 +125,10 @@ function Home() {
   </div>
 
       <div className="gallery">
-        <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585982215/group_ddk02j.png" />
+        {/* <img src="https://res.cloudinary.com/diknntl0x/image/upload/v1585982215/group_ddk02j.png" /> */}
+
+
+        <NewsCarousel />
       </div>
 
       <div className="bottom"></div>
