@@ -129,7 +129,7 @@
   outline: none;
 }
 
-.borrow2 .section .right .box button {
+.borrow2 .section .right .box .button {
   background: #FF784E;
   border-radius: 6px;
   color: #fff;
