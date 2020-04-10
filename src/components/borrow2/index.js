@@ -33,18 +33,18 @@ class Borrow2 extends Component {
 
   componentDidMount() {
 
-    setTimeout(() => {
+    // setTimeout(() => {
 
-      firebase.auth().onAuthStateChanged((user) => {
-        document.getElementById('loading').style.display = 'none';
-        document.getElementById('loaded').style.display = 'block';
-        user ? this.handleSignedInUser(user) : this.handleSignedOutUser();
-      });
+    //   firebase.auth().onAuthStateChanged((user) => {
+    //     document.getElementById('loading').style.display = 'none';
+    //     document.getElementById('loaded').style.display = 'block';
+    //     user ? this.handleSignedInUser(user) : this.handleSignedOutUser();
+    //   });
 
-      window.addEventListener('load', this.initApp);
+    //   window.addEventListener('load', this.initApp);
 
 
-    }, 3000);
+    // }, 3000);
 
 
   }
@@ -548,7 +548,7 @@ class Borrow2 extends Component {
 
                         </fieldset>
 
-                        <div  className="button" onClick={() => fullpageApi.moveSectionDown()}>
+                        <div className="button" onClick={() => fullpageApi.moveSectionDown()}>
                           Next
                           </div>
 
@@ -634,11 +634,24 @@ class Borrow2 extends Component {
                             <div class="control">
                               <textarea class="textarea" id="payment" name="payment" placeholder="Any other financial details"></textarea>
                             </div>
-                          </div>ƒ
+                          </div>
 
                         </fieldset>
 
-                        <div className="button" onClick={() => fullpageApi.moveSectionDown()}>
+                        <div className="button" onClick={() => {
+
+                          setTimeout(() => {
+                            firebase.auth().onAuthStateChanged((user) => {
+                              // initiate phone verification widget
+                              document.getElementById('loading').style.display = 'none';
+                              document.getElementById('loaded').style.display = 'block';
+                              user ? this.handleSignedInUser(user) : this.handleSignedOutUser();
+                            });
+                          }, 1000)
+
+                          fullpageApi.moveSectionDown();
+                        }
+                        }>
                           Next
                     </div>
 
@@ -693,7 +706,7 @@ class Borrow2 extends Component {
                             </div>
                           </div> */}
 
-                          <div id="container">
+                          <div id="container" style={{ margin: '2rem 0' }}>
                             <div className="box" id="loading">Loading...</div>
                             <div className="box" id="loaded" class="hidden">
                               <div id="main">
