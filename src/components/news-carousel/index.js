@@ -31,7 +31,7 @@ export default class extends React.Component {
                     </div>
 
                 </a>
-                <a href="http://www.rfi.fr/en/international/20200404-modi-morale-boost-for-indians-in-lockdown-government-seeks-exit-strategy-post-covid-19" className="slide">
+                <a href="https://www.rfi.fr/en/international/20200404-modi-morale-boost-for-indians-in-lockdown-government-seeks-exit-strategy-post-covid-19" className="slide">
                     <img src="http://s.rfi.fr/media/display/e2b926a6-759e-11ea-8483-005056bf87d6/w:980/p:16x9/c400eee7-73ea-4d14-8f21-0cd8e61b6170.webp" />
                     <div className="content">
                         <div className="headline">India's government discusses end of lockdown as millions struggle to find food</div>

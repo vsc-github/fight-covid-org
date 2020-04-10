@@ -125,6 +125,26 @@
     background: grey;
 }
 
+.home .how .tabs .tab {
+    color: #FF794F;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    cursor: pointer;
+}
+
+.home .how .tabs .tab:first-of-type {
+    margin: 0 1.5rem 0 0;
+}
+
+.home .how .tabs .tab.active {
+    background: #F4F4F4;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
 .home .how .tiles {
     display: flex;
     flex-direction: column;
@@ -148,6 +168,10 @@
     padding: 0 3rem;
     margin-bottom: 2rem;
     max-width: 20rem;
+}
+
+.home .how .tile img {
+    max-width: 10rem;
 }
 
 .home .how .tile .heading {
