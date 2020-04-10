@@ -19,10 +19,10 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/borrow">
+          <Route path="/borrow2">
             <Borrow />
           </Route>
-          <Route path="/borrow2">
+          <Route path="/borrow">
             <Borrow2 />
           </Route>
           <Route path="/">

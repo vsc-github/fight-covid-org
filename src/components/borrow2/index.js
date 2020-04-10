@@ -80,7 +80,7 @@ class Borrow2 extends Component {
     fields.phone = this.state.user.phoneNumber;
     fields.id = new Date().getTime();
 
-    console.log("fields",fields);
+    // console.log("fields",fields);
 
     delete fields.certificates;
     delete fields.affect;
