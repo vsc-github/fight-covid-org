@@ -91,7 +91,7 @@ const Borrow2 = () => (
                     <div class="field">
                       <label class="label" for="address">Current Address</label>
                       <div class="control">
-                        <textarea class="textarea" id="address" name="address"></textarea>
+                        <textarea class="textarea" id="address" name="address" placeholder="Address"></textarea>
                       </div>
                     </div>
 
@@ -134,7 +134,7 @@ const Borrow2 = () => (
 
                   <div className="box">
 
-                    <legend>Educationa Details</legend>
+                    <legend>Education Details</legend>
 
 
                     <fieldset>
@@ -355,7 +355,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="cashapp">Paypal</label>
                         <div class="control">
-                          <input id="skills" name="skills" type="text" placeholder="writing, accounting, service industry, chef, homeworker" class="input " />
+                          <textarea id="skills" name="skills" type="text" placeholder="Writing, accounting, service industry, chef, homeworker. Add all the skills." class="input " />
 
                         </div>
                       </div>
@@ -446,7 +446,7 @@ const Borrow2 = () => (
                       <div class="field">
                         <label class="label" for="payment">Any other financial details</label>
                         <div class="control">
-                          <textarea class="textarea" id="payment" name="payment"></textarea>
+                          <textarea class="textarea" id="payment" name="payment" placeholder="Any other financial details"></textarea>
                         </div>
                       </div>
 
